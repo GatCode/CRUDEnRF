@@ -13,7 +13,7 @@ This is a very crude implementation of a BLE packet sniffer, based on a [Nordic 
 
 ## Basic Principle
 
-- **Step 1**: Compile and flash the DK (recommended: [how to build your Zephyr app](https://zephyrproject.org/how-to-build-your-zephyr-app-in-a-standalone-folder/))
+- **Step 1**: Compile and flash the DK (`zephyr.hex` provided - recommended: [how to build your Zephyr app](https://zephyrproject.org/how-to-build-your-zephyr-app-in-a-standalone-folder/))
 - **Step 2**: Connect to the DK (e.g., with [tio](https://github.com/tio/tio))
 - **Step 3**: Select the PHY (`1M` / `2M`)
 - **Step 4**: Enter the access address (e.g., `0x8e89bed6` for advertisements)
